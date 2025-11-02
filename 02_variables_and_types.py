@@ -12,40 +12,40 @@ Variables are used to store data that can be used later in your program.
 # INTEGER (int) - whole numbers
 age = 25
 count = -10
-print("Age:", age)
-print("Type of age:", type(age))  # type() function shows the data type
+print("Age:", age)  # Output: Age: 25
+print("Type of age:", type(age))  # Output: Type of age: <class 'int'>  # type() function shows the data type
 
 # FLOAT (float) - decimal numbers
 price = 19.99
 temperature = -5.5
-print("\nPrice:", price)
-print("Type of price:", type(price))
+print("\nPrice:", price)  # Output: Price: 19.99
+print("Type of price:", type(price))  # Output: Type of price: <class 'float'>
 
 # STRING (str) - text, enclosed in quotes (single or double)
 name = "Alice"
 greeting = 'Hello'
 message = "Python is fun!"
-print("\nName:", name)
-print("Type of name:", type(name))
+print("\nName:", name)  # Output: Name: Alice
+print("Type of name:", type(name))  # Output: Type of name: <class 'str'>
 
 # BOOLEAN (bool) - True or False (must be capitalized)
 is_student = True
 is_active = False
-print("\nIs student:", is_student)
-print("Type of is_student:", type(is_student))
+print("\nIs student:", is_student)  # Output: Is student: True
+print("Type of is_student:", type(is_student))  # Output: Type of is_student: <class 'bool'>
 
 # VARIABLE REASSIGNMENT
 # You can change the value of a variable
 x = 5
-print("\nInitial x:", x)
+print("\nInitial x:", x)  # Output: Initial x: 5
 x = 10  # x now has a new value
-print("Updated x:", x)
+print("Updated x:", x)  # Output: Updated x: 10
 
 # Variables can even change types (Python is dynamically typed)
 y = 5
-print("\ny is an integer:", y, type(y))
+print("\ny is an integer:", y, type(y))  # Output: y is an integer: 5 <class 'int'>
 y = "five"  # Now y is a string
-print("y is now a string:", y, type(y))
+print("y is now a string:", y, type(y))  # Output: y is now a string: five <class 'str'>
 
 # NAMING VARIABLES
 # Good practices:
