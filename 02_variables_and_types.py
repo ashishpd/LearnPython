@@ -28,7 +28,7 @@ message = "Python is fun!"
 print("\nName:", name)  # Output: Name: Alice
 print("Type of name:", type(name))  # Output: Type of name: <class 'str'>
 
-# BOOLEAN (bool) - True or False (must be capitalized)
+# BOOLEAN (bool) - True or False (capital first letter: True/False, not true/false)
 is_student = True
 is_active = False
 print("\nIs student:", is_student)  # Output: Is student: True
