@@ -14,8 +14,38 @@ name = "Alice"
 age = 30
 
 # Simple variable interpolation
+# F-strings can be used anywhere strings are needed, not just with print()
 message = f"My name is {name} and I'm {age} years old."
 print(message)  # Output: My name is Alice and I'm 30 years old.
+
+# F-strings can be assigned to variables
+greeting = f"Hello, {name}!"
+print(greeting)  # Output: Hello, Alice!
+
+# F-strings can be used as function arguments
+def greet_user(msg):
+    return msg
+
+result = greet_user(f"Welcome, {name}!")  # F-string passed as argument
+print(result)  # Output: Welcome, Alice!
+
+# F-strings can be used in lists, dictionaries, etc.
+user_info = {
+    "greeting": f"Hello, {name}",
+    "message": f"You are {age} years old"
+}
+print(user_info["greeting"])  # Output: Hello, Alice
+print(user_info["message"])  # Output: You are 30 years old
+
+# F-strings can be returned from functions
+def create_email(username):
+    return f"{username}@example.com"
+
+email = create_email(name.lower())
+print(f"Email: {email}")  # Output: Email: alice@example.com
+
+# F-strings can be used in file operations, APIs, databases, etc.
+# (We'll see more examples of this in later lessons)
 
 # You can use expressions inside f-strings
 print(f"Next year I'll be {age + 1}")  # Output: Next year I'll be 31
