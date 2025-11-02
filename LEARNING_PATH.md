@@ -153,6 +153,267 @@ A progressive learning path for Python fundamentals, with small, commented examp
 - Creating custom exceptions
 - Exception hierarchy
 
+## Advanced Topics (Senior Developer Level)
+
+### 29_threading.py
+- Threading basics
+- GIL implications
+- Thread synchronization (locks, events, semaphores)
+- Thread pools
+
+### 30_multiprocessing.py
+- Process-based parallelism
+- Bypassing the GIL
+- Process communication (queues, pipes)
+- Shared memory
+- Process pools
+
+### 31_asyncio.py
+- Async/await syntax
+- Coroutines and event loops
+- Concurrent I/O operations
+- Async context managers
+- asyncio.gather(), create_task()
+
+### 32_type_hints.py
+- Type annotations
+- typing module
+- Optional, Union, Generic types
+- Type aliases
+- Type checking concepts
+
+### 33_protocols_and_abc.py
+- Structural typing (Protocols)
+- Abstract Base Classes (ABC)
+- Duck typing vs inheritance
+- Multiple protocols
+
+### 34_unit_testing.py
+- unittest module
+- pytest basics
+- Test fixtures
+- Assertions
+- Test organization
+
+### 35_testing_advanced.py
+- Advanced pytest features
+- Mocking and patching
+- Parametrized tests
+- Test coverage
+- Async testing
+
+### 36_virtual_environments.py
+- venv and virtualenv
+- pip and requirements.txt
+- Package management
+- Environment isolation
+
+### 37_package_creation.py
+- Creating Python packages
+- setup.py and pyproject.toml
+- Package structure
+- Distribution and publishing
+
+### 38_metaclasses.py
+- Metaclass fundamentals
+- Class creation and modification
+- When to use metaclasses
+- Practical examples
+
+### 39_descriptors.py
+- Descriptor protocol
+- Property, __get__, __set__, __delete__
+- Practical descriptor patterns
+
+### 40_design_patterns.py
+- Singleton, Factory, Observer
+- Strategy, Decorator, Adapter
+- Template Method, Command
+- Pythonic pattern implementations
+
+### 41_profiling.py
+- cProfile and pstats
+- timeit module
+- Performance optimization
+- Profiling techniques
+
+### 42_memory_management.py
+- Garbage collection
+- __slots__ optimization
+- Weak references
+- Memory profiling
+
+### 43_pickle_and_serialization.py
+- Pickle module
+- JSON serialization
+- Custom serialization
+- Security considerations
+
+### 44_database_connections.py
+- SQLite (built-in)
+- Connection management
+- Parameterized queries
+- Basic ORM concepts
+
+### 45_http_requests.py
+- requests library
+- REST API interaction
+- Authentication
+- Error handling
+
+### 46_async_http.py
+- aiohttp library
+- Async HTTP clients
+- Concurrent requests
+- Async patterns
+
+### 47_logging.py
+- logging module
+- Log levels and handlers
+- Formatters and filters
+- Structured logging
+
+### 48_debugging.py
+- pdb debugger
+- Breakpoints
+- Debugging strategies
+- Error analysis
+
+### 49_argparse_and_cli.py
+- argparse module
+- CLI creation
+- click library concepts
+- Command-line best practices
+
+### 50_configuration_management.py
+- ConfigParser
+- Environment variables
+- .env files
+- Configuration patterns
+
+### 51_collections_advanced.py
+- namedtuple, Counter, deque
+- defaultdict, ChainMap
+- OrderedDict
+- Advanced collection patterns
+
+### 52_dataclasses.py
+- @dataclass decorator
+- Field customization
+- Frozen dataclasses
+- Inheritance
+
+### 53_pathlib_advanced.py
+- pathlib module
+- Path operations
+- File and directory handling
+- Modern path management
+
+### 54_working_with_csv.py
+- csv module
+- Reading and writing CSV
+- DictReader/DictWriter
+- pandas basics
+
+### 55_functools_advanced.py
+- partial, reduce
+- lru_cache
+- singledispatch
+- wraps, total_ordering
+
+### 56_iterator_protocol.py
+- __iter__ and __next__
+- Custom iterators
+- Iterator utilities
+- Iterable vs iterator
+
+### 57_os_and_sys_modules.py
+- os module
+- sys module
+- System interaction
+- Environment management
+
+### 58_subprocess.py
+- Running external commands
+- subprocess.run(), Popen
+- Process management
+
+### 59_class_decorators.py
+- Decorating classes
+- Class modification patterns
+- Practical applications
+
+### 60_metaprogramming.py
+- __getattr__, __setattr__
+- __call__
+- Dynamic attribute access
+- Meta-programming patterns
+
+### 61_web_scraping.py
+- BeautifulSoup concepts
+- HTML parsing
+- Web scraping basics
+
+### 62_xml_parsing.py
+- xml.etree.ElementTree
+- XML processing
+- Parsing patterns
+
+### 63_security_basics.py
+- hashlib
+- secrets module
+- Security best practices
+- Input validation
+
+### 64_build_tools.py
+- setuptools
+- Building packages
+- Distribution
+- PyPI publishing
+
+### 65_caching_strategies.py
+- functools.lru_cache
+- Memoization patterns
+- Caching techniques
+
+### 66_optimization_patterns.py
+- Common optimizations
+- Performance patterns
+- Optimization strategies
+
+### 67_custom_context_managers_advanced.py
+- Async context managers
+- Nested contexts
+- Advanced patterns
+
+### 68_regex_advanced.py
+- Complex patterns
+- Named groups
+- Compiled patterns
+- Optimization
+
+### 69_exception_chaining.py
+- raise from
+- Exception context
+- Chaining patterns
+
+### 70_queues_and_synchronization.py
+- queue.Queue
+- Threading primitives
+- Lock, Event, Semaphore
+
+### 71_code_quality.py
+- Linting (pylint, flake8)
+- Formatting (black)
+- Type checking (mypy)
+- Code quality tools
+
+### 72_generator_advanced.py
+- yield from
+- Async generators
+- Generator delegation
+- Advanced patterns
+
 ## Notes
 - Each file should be self-contained
 - Well-commented with explanations
